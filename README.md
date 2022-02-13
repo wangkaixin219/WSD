@@ -60,5 +60,5 @@ cd algorithm
 
 ### Change parameters
 
-If you are interested in explore some other properties of the algorithm (e.g., the impact of probabilities involved in deletion generations), you can find the definitions of them in [`def.h`](https://github.com/wangkaixin219/WSD/blob/main/algorithm/def.h). 
+If you are interested in explore some other properties of the algorithm (e.g., the impact of probabilities involved in deletion generations), you can find the definitions of them in `algorithm/def.h`. 
 
