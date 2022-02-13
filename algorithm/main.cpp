@@ -39,7 +39,7 @@ int main(int argc, const char* argv[]) {
     cout << "Avg " << (long) wsd_triangle_est.counters[wsd_triangle_est.counters.size()-1] << endl
          <<  "ARE " << wsd_triangle_est.absolute_relative_error * 100 << "%" << endl
          <<  "MARE " << wsd_triangle_est.mean_absolute_relative_error * 100 << "% " << endl
-         << "Runtime" << wsd_triangle_est.runtime << endl << endl;
+         << "Runtime " << wsd_triangle_est.runtime << "ms" << endl << endl;
 
 
     res_t actual_wedge = wedge(stream);
@@ -59,7 +59,7 @@ int main(int argc, const char* argv[]) {
     cout << "Avg " << (long) wsd_wedge_est.counters[wsd_wedge_est.counters.size()-1] << endl
          <<  "ARE " << wsd_wedge_est.absolute_relative_error * 100 << "%" << endl
          <<  "MARE " << wsd_wedge_est.mean_absolute_relative_error * 100 << "% " << endl
-         << "Runtime" << wsd_wedge_est.runtime << endl << endl;
+         << "Runtime " << wsd_wedge_est.runtime << "ms" << endl << endl;
 
 
     return 0;
