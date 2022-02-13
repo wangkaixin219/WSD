@@ -1,12 +1,7 @@
 from collections import defaultdict
 import random
-import torch
-import torch.nn.functional as F
-import torch.nn as nn
-from queue import PriorityQueue
-from brain import *
-import time
 import numpy as np
+from brain import *
 
 
 class WSD(object):

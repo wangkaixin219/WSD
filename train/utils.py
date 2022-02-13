@@ -23,7 +23,7 @@ class Graph(object):
             for line in graph.readlines():
                 if line.startswith('%'):
                     continue
-                v1, v2 = line.strip().split(',')
+                v1, v2 = line.strip().split(' ')
                 v1, v2 = int(v1), int(v2)
                 if v1 == v2:
                     continue
